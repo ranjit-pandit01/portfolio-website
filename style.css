@@ -1,28 +1,50 @@
-body{
-  font-family: Arial;
-  background:#f2f2f2;
-  margin:0;
-  padding:0;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Soft grey se thoda modern off-white background */
+  background: #f4f7f6; 
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-header{
-  background:blue;
-  color:white;
-  text-align:center;
-  padding:30px;
+header {
+  /* Sadhe blue ke bajaye ek premium dark-blue gradient background */
+  background: linear-gradient(135deg, #0052d4, #4364f7, #6fb1fc);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-section{
-  padding:20px;
+section {
+  /* Har section ko ek white box ka look diya hai jo utha hua dikhega */
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
-h2{
-  color:blue;
+h2 {
+  color: #4364f7;
+  border-bottom: 2px solid #f2f2f2;
+  padding-bottom: 8px;
 }
 
-button{
-  background:blue;
-  color:white;
-  border:none;
-  padding:10px 20px;
+button {
+  background: #4364f7;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(67, 100, 247, 0.2);
+}
+
+/* Button par jab koi ungli rakhega toh color thoda dark ho jayega */
+button:hover {
+  background: #0052d4;
 }
